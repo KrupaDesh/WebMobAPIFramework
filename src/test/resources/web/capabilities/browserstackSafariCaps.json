@@ -1,0 +1,10 @@
+{
+  "browserName": "Safari",
+  "bstack:options": {
+    "os": "OS X",
+    "osVersion": "Ventura",
+    "browserVersion": "16.0",
+    "seleniumVersion": "4.0.0"
+  }
+
+}

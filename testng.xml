@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="API_regression"/>
+        </run>
+    </groups>
+    <!--  preserve-order is used to control the execution sequence of all test classes-->
+    <test verbose="2" preserve-order="true" name="Rezolve Test">
+
+        <classes>
+            <class name="com.rezolve.web.icv2.tests.eu.CreateIcEngagementTestsICv2"/>
+            <class name="com.rezolve.web.icv2.tests.eu.ActEngagementTestsICv2"/>
+            <class name="com.rezolve.web.icv2.tests.eu.BuyEngagementTestsICv2"/>
+            <class name="com.rezolve.web.icv2.tests.eu.AddressValidationTestsICv2"/>
+            <class name="com.rezolve.api.Core.test.CoreAPITest"/>
+            <class name="com.rezolve.api.Core.test.CoreNegativeTest"/>
+            <class name="com.rezolve.api.Profile.test.ProfileAPITest"/>
+            <class name="com.rezolve.api.SmartTrigger.test.SmartTriggerTest"/>
+            <class name="com.rezolve.api.Search.test.SearchAPITest"/>
+            <class name="com.rezolve.api.RCE.test.RCEAPITest"/>
+
+        </classes>
+    </test>
+</suite>

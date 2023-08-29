@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "zip": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "phone_id": {
+      "type": "string"
+    },
+    "line_2": {
+      "type": "string"
+    },
+    "line_1": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "country_alpha2": {
+      "type": "null"
+    },
+    "country": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "zip",
+    "state",
+    "short_name",
+    "phone_id",
+    "line_2",
+    "line_1",
+    "id",
+    "full_name",
+    "country_alpha2",
+    "country",
+    "city"
+  ]
+}

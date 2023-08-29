@@ -1,0 +1,42 @@
+{
+  "paymentProviders": {
+    "paypal": "paypal",
+    "computop": "computop",
+    "bsPayone": "bsPayone",
+    "elavon": "elavon",
+    "sixWorldline": "six",
+    "worldline": "worldline"
+  },
+  "yourDetails": {
+    "merchantName": "Test Merc",
+    "merchantId": "4556016352",
+    "terminalId": "60024716",
+    "customerServicePhoneNum": "9876543210",
+    "posID": "0014",
+    "uID": "27564426",
+    "threeDSecureMerchantName": "Test Merc",
+    "threeDSecureMerchantURL": "www.test.de",
+    "CountryISCode": "276",
+    "threeDSecureMerchantID": "21553110",
+    "threeDSecureMerchantCategory": "5511",
+    "MerchantAcquirerBinVTwo": "462764",
+    "MerchantAcquirerBinVTwoForMasterCard": "530116",
+    "MerchantAcquirerBinVTwoForAmexCard": "123456",
+    "amexcardMerchantID": "21553110",
+    "RequestorID": "10066501*2101397670",
+    "requestorIDForMastercard": "10066501*2101397670",
+    "requestorIDForAmex": "123456",
+    "RequestorName": "PWE",
+    "RequestorNameForMastercard": "test",
+    "RequestorNameForAmexCard": "123456",
+    "computopMerchantID": "rezolve_test",
+    "computopHMACKey": "dsxFI2j0VWo_4ZXbma9ycFY0(qK0LHG6",
+    "computopBlowfishKey": "vHCXzfjU6jt*[E1T",
+    "acquiringInstitutionID": "10002200000",
+    "merchantIdForWorldLine": "123456",
+    "terminalIdForWorldLine": "75500001",
+    "sixWorldLineMerchantId": "100009876",
+    "sixWorldLineTerminalId": "71E00629"
+  }
+
+}

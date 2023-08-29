@@ -1,0 +1,109 @@
+{
+  "checkInAPI": {
+    "checkInAPIPath": "api/v1/check-in",
+    "checkInAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,en;q=0.9",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    },
+    "checkInAPIPayload": {
+      "applicationId": "sb.rezolve.app.staging",
+      "version": "7272-develop-49bb930-uss",
+      "os": "ANDROID",
+      "pushTokenType": "FCM",
+      "apiKey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "pushToken": "fpAfvMYcTM6MwDba2YQCJo:APA91bGMXGtRDWvUCthIQK34hDUAhPq0UYrk3I2xykBnfh0GEqNe3qDySD8X8lX0hBV4EwHNDi_zwlYapUtsPp8ntU_uBxdn9zB3SSX1OX3Dphf_kTNeGrNtb_iZRMXGH3iO9CeZjnjW"
+    }
+  },
+  "trackingAPI": {
+    "trackingAPIPath": "api/v1/tracking",
+    "trackingAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,en;q=0.9",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    },
+    "trackingAPIPayload": {
+      "latitude": -22.951911,
+      "longitude": -43.2126759,
+      "radius": 400,
+      "coordinateSystem": "WGS84"
+    }
+  },
+  "getTagsAPI": {
+    "getTagsAPIPath": "api/v1/tags",
+    "getTagsAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,de-DE;q=0.9,zh-Hant-TW;q=0.79999995,zh-Hans-CN;q=0.6999999,ko-KP;q=0.5999999,es-ES;q=0.4999999,fr-FR;q=0.39999992,it-IT;q=0.29999992,en-US;q=0.19999993,en-IN;q=0.09999993",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    }
+  },
+  "updateTagsAPI": {
+    "updateTagsAPIPath": "api/v1/tags",
+    "updateTagsAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,de-DE;q=0.9,zh-Hant-TW;q=0.79999995,zh-Hans-CN;q=0.6999999,ko-KP;q=0.5999999,es-ES;q=0.4999999,fr-FR;q=0.39999992,it-IT;q=0.29999992,en-US;q=0.19999993,en-IN;q=0.09999993",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    },
+    "updateTagsAPIPayload":{
+      "tags": [
+        {
+          "id": "25",
+          "enabled": true
+        }
+      ]
+  }
+  },
+  "myAreaAPI": {
+    "myAreaAPIPath": "api/v1/myarea?lat=43.811&lng=18.319486&distance=20000&coordinateSystem=WGS84&filter=ALL&limit=100&offset=0",
+    "myAreaAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,de-DE;q=0.9,zh-Hant-TW;q=0.79999995,zh-Hans-CN;q=0.6999999,ko-KP;q=0.5999999,es-ES;q=0.4999999,fr-FR;q=0.39999992,it-IT;q=0.29999992,en-US;q=0.19999993,en-IN;q=0.09999993",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    }
+  },
+  "addEventAPI": {
+    "addEventAPIPath": "api/v1/geozone/14516/events",
+    "addEventAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,en;q=0.9",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    },
+    "addEventAPIPayload": {
+      "eventType": "ENTER",
+      "timestamp": 1664171849115,
+      "latitude": 43.8117175092959,
+      "longitude": 18.319502245913444,
+      "coordinateSystem": "WGS84"
+    }
+  },
+  "addBulkEventAPI": {
+    "addBulkEventAPIPath": "api/v1/geozone/14516/events",
+    "addBulkEventAPIheaders": {
+      "Content-Type": "application/json",
+      "Accept-Language": "en-GB,en;q=0.9",
+      "Accept": "application/json",
+      "Host": "bff.stg.eu.rezolve.com",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    },
+    "addBulkEventAPIPayload": {
+      "eventType": "ENTER",
+      "timestamp": 1664171849115,
+      "latitude": 43.8117175092959,
+      "longitude": 18.319502245913444,
+      "coordinateSystem": "WGS84",
+      "geozoneId": 659
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "selectECommercePlatform": {
+
+    "bigCommerce": "BigCommerce",
+    "shopify": "Shopify",
+    "salesForceCommerceCloud": "SalesForce Commerce Cloud"
+
+  }
+
+}

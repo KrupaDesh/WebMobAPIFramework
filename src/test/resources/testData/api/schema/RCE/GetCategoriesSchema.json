@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "has_products": {
+      "type": "boolean"
+    },
+    "product_count": {
+      "type": "integer"
+    },
+    "has_categories": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "string"
+    },
+    "image_thumbs": {
+      "type": "array",
+      "items": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "null"
+    },
+    "categories": {
+      "oneOf": [
+        {"type":"array"},
+        {"type":"null" }
+      ],
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "parent_id": {
+              "type": "integer"
+            },
+            "has_products": {
+              "type": "boolean"
+            },
+            "product_count": {
+              "type": "integer"
+            },
+            "has_categories": {
+              "type": "boolean"
+            },
+            "image": {
+              "type": "string"
+            },
+            "image_thumbs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "null"
+            },
+            "categories": {
+              "type": "null"
+            },
+            "include_cart_button_on_listing": {
+              "type": "boolean"
+            },
+            "is_default": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "parent_id",
+            "has_products",
+            "product_count",
+            "has_categories",
+            "image",
+            "image_thumbs",
+            "name",
+            "description",
+            "categories",
+            "include_cart_button_on_listing",
+            "is_default"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "parent_id": {
+              "type": "integer"
+            },
+            "has_products": {
+              "type": "boolean"
+            },
+            "product_count": {
+              "type": "integer"
+            },
+            "has_categories": {
+              "type": "boolean"
+            },
+            "image": {
+              "type": "string"
+            },
+            "image_thumbs": {
+              "type": "array",
+              "items": {}
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "null"
+            },
+            "categories": {
+              "type": "null"
+            },
+            "include_cart_button_on_listing": {
+              "type": "boolean"
+            },
+            "is_default": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "parent_id",
+            "has_products",
+            "product_count",
+            "has_categories",
+            "image",
+            "image_thumbs",
+            "name",
+            "description",
+            "categories",
+            "include_cart_button_on_listing",
+            "is_default"
+          ]
+        }
+      ]
+    },
+    "include_cart_button_on_listing": {
+      "type": "boolean"
+    },
+    "is_default": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "parent_id",
+    "has_products",
+    "product_count",
+    "has_categories",
+    "image",
+    "image_thumbs",
+    "name",
+    "description",
+    "categories",
+    "include_cart_button_on_listing",
+    "is_default"
+  ]
+}

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>Rezolve_WebMobAPI_Automation</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <aspectj.version>1.9.4</aspectj.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.26</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <!--Carina Dependencies-->
+
+        <!-- https://mvnrepository.com/artifact/com.zebrunner/carina-core -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-core</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.zebrunner/carina-dataprovider -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-dataprovider</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.zebrunner/carina-api -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-api</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.zebrunner/carina-aws-s3 -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-aws-s3</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <!-- Log4j2 -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.21.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.21.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-rest-assured -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-rest-assured</artifactId>
+            <version>2.21.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.8.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.projectlombok/lombok &ndash;&gt;
+                <dependency>
+                    <groupId>org.projectlombok</groupId>
+                    <artifactId>lombok</artifactId>
+                    <version>1.18.26</version>
+                    <scope>provided</scope>
+                </dependency>-->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.3.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.0</version>
+        </dependency>
+<!--         https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>-->
+        <dependency>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+            <dependency>
+                <groupId>com.jayway.jsonpath</groupId>
+                <artifactId>json-path</artifactId>
+                <version>2.6.0</version>
+            </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.16.1</version>
+        </dependency>
+         <!--https://mvnrepository.com/artifact/com.cybozu.labs/langdetect-->
+        <dependency>
+            <groupId>com.cybozu.labs</groupId>
+            <artifactId>langdetect</artifactId>
+            <version>1.1-20120112</version>
+        </dependency>
+        <dependency>
+            <groupId>com.optimaize.languagedetector</groupId>
+            <artifactId>language-detector</artifactId>
+            <version>0.6</version>
+        </dependency>
+
+
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>clean-reports</id>
+                        <phase>pre-clean</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                        <configuration>
+                            <filesets>
+                                <fileset>
+                                    <directory>${project.basedir}/allure-results</directory>
+                                    <includes>
+                                        <include>**/*</include>
+                                    </includes>
+                                </fileset>
+                                <fileset>
+                                    <directory>${project.basedir}/logs</directory>
+                                    <includes>
+                                        <include>**/*</include>
+                                    </includes>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+<!--                    <encoding>UTF-8</encoding>-->
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.26</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <!--<suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>-->
+                    <includes>
+                        <include>**/*</include>
+                    </includes>
+                    <!--<reportsDirectory>${project.basedir}/surefire-reports</reportsDirectory>-->
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

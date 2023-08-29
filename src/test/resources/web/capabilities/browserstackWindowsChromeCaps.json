@@ -1,0 +1,9 @@
+{
+  "browserName" :"Chrome",
+  "browserVersion" : "114",
+  "bstack:options" :{
+    "os": "windows",
+    "osVersion" : "10",
+    "seleniumVersion": "4.0.0"
+  }
+}

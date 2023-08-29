@@ -1,0 +1,11 @@
+{
+  "queryLanguage": {
+    "chineseLanguage": "zh-CN",
+    "koreanLanguage": "ko",
+    "arabicLanguage": "ar",
+    "deutschLanguage": "de",
+    "frenchLanguage": "fr",
+    "spanishLanguage": "sp",
+    "englishLanguage": "en"
+  }
+}

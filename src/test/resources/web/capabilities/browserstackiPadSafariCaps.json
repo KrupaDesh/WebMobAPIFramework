@@ -1,0 +1,9 @@
+{
+  "browserName": "Safari",
+  "bstack:options": {
+    "deviceName": "iPad Pro 12.9 2022",
+    "osVersion": "16",
+    "deviceOrientation": "portrait",
+    "appiumVersion": "1.21.0"
+  }
+}

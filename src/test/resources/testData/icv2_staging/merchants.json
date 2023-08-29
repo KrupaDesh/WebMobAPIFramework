@@ -1,0 +1,15 @@
+{
+  "oldicMerchant": {
+    "merchantName": "AB CORP",
+    "phoneNumber": "+9040091652",
+    "website": "https://help.rezolve.com/developers/"
+  },
+  "icMerchant": {
+    "merchantName": "DEV QA3 (ALL PAYMENTS)",
+    "phoneNumber": "+0000000000",
+    "website": "https://www.rezolve.com/"
+  }
+
+
+
+}

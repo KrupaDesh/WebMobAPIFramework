@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "phone_number": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "partner_name": {
+      "type": "string"
+    },
+    "partner_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "merchant_id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "provider_tx_code": {
+          "type": "string"
+        },
+        "merchant_tx_code": {
+          "type": "string"
+        },
+        "iframe": {
+          "type": "object",
+          "properties": {
+            "params": {
+              "type": "object",
+              "properties": {
+                "threeDSMethodData": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "threeDSMethodData"
+              ]
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "threeDSMethodData": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "threeDSMethodData"
+              ]
+            },
+            "action": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "params",
+            "parameters",
+            "action"
+          ]
+        },
+        "form": {
+          "type": "object",
+          "properties": {
+            "params": {
+              "type": "object"
+            },
+            "parameters": {
+              "type": "object"
+            },
+            "action": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "params",
+            "parameters",
+            "action"
+          ]
+        },
+        "flow": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "provider_tx_code",
+        "merchant_tx_code",
+        "iframe",
+        "form",
+        "flow",
+        "currency"
+      ]
+    }
+  },
+  "required": [
+    "phone_number",
+    "payment_method",
+    "partner_name",
+    "partner_id",
+    "order_id",
+    "name",
+    "merchant_id",
+    "email",
+    "data"
+  ]
+}

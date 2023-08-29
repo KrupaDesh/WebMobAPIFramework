@@ -1,0 +1,10 @@
+{
+  "browserName": "Firefox",
+  "bstack:options": {
+    "os": "Windows",
+    "osVersion": "10",
+    "seleniumVersion": "4.0.0",
+    "local": "false"
+  }
+
+}

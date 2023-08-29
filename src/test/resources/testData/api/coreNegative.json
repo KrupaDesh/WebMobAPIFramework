@@ -1,0 +1,155 @@
+{
+  "loginAPIWithIncorrectData": {
+    "loginAPIWithIncorrectDataPath": "v2/credentials/login",
+    "loginAPIWithIncorrectDataHeaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "Accept": "application/json",
+      "User-Agent":"rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd",
+      "Accept-Language": "en-GB,de-DE;q=0.9,zh-Hant-TW;q=0.79999995,zh-Hans-CN;q=0.6999999,ko-KP;q=0.5999999,es-ES;q=0.4999999,fr-FR;q=0.39999992,it-IT;q=0.29999992,en-US;q=0.19999993,en-IN;q=0.09999993,ko-KR;q=-7.4505806E-8"
+    },
+    "loginAPIWithIncorrectDataPayload": {
+      "password": "123test1234",
+      "username": "eumx_emepos627@mailinator.com",
+      "deviceId": "2cba46a6-4c61-431a-823b-5131072ed786"
+    },
+    "loginAPIErrorRespone": {
+          "type": "Incorrect username or password",
+          "code": 4,
+          "message": "The combination of username and password used is incorrect. Please request a username reminder or password reset, messages will be sent to the email address or phone number you used to sign up with."
+    },
+    "loginAPIErrorResponseWithIncorrectHeaders":
+    {
+          "type": "RUA instance has more than one partner, please provide a apikey",
+          "code": 18,
+          "message": "No partners found. Please provide a correct apikey"
+    }
+  },
+
+  "registerV2WithIncorrectDataApi": {
+    "registerV2WithIncorrectDataApiPath": "v2/credentials/register",
+    "registerV2WithIncorrectDataApiheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "User-Agent":"qa-at-abmm"
+      },
+    "registerV2WithIncorrectDataApiPayload": {
+      "username": "eumx_emepos16@mailinator.com",
+      "password": "test1234",
+      "firstName": "Sagar",
+      "lastName": "L",
+      "phone": "+6396471247",
+      "email": "eumx_emepos16@mailinator.com"
+    },
+    "registerV2ErrorResposnse": {
+      "type": "Cannot process registration for user",
+      "code": 3,
+      "message": "Sorry, it appears this user already exists. Please use the forgotten password feature if you do not remember the password you signed up with"
+    },
+    "registerV2ErrorResposnseWithIncorrectHeaders":
+    {
+      "type": "RUA instance has more than one partner, please provide a apikey",
+      "code": 18,
+      "message": "No partners found. Please provide a correct apikey"
+    }
+  },
+
+  "confirmNumberApiWithIncorrectData": {
+    "confirmNumberApiWithIncorrectDataPath": "admin/inventory/users/",
+    "confirmNumberApiWithIncorrectDataHeaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "Authorization": "Basic cnpsdjpwODI1UFVxTENodFk5WXdV",
+      "User-Agent": "rxp-kotlin-client-0.0.1-SNAPSHOT/xiaomi Mi A2/com.rezolve.anyapp.dev/7685-rxp-integration-nt-61b3511-rd"
+    }
+  },
+  "guestRegisterApiWithIncorrectData": {
+    "guestRegisterApiWithIncorrectDataPath":"v2/credentials/register/guest",
+    "guestRegisterApiWithIncorrectDataHeaders":{
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+    },
+    "guestRegisterErrorResponseWithIncorrectData":{
+      "type": "RUA instance has more than one partner, please provide a apikey",
+      "code": 18,
+      "message": "Multiple partners found. Please provide an apikey",
+      "altMessage":"No partners found. Please provide a correct apikey"
+    }
+  },
+  "guestLoginApiWithIncorrectData": {
+    "guestLoginApiWithIncorrectDataPath":"v2/credentials/register/guest",
+    "guestLoginApiWithIncorrectDataHeaders":{
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+    },
+    "guestLoginApiWithIncorrectDataPayload":{
+      "deviceId": "bd244283-c40a-41ad-aacc-e8fdbb1d9879",
+      "entityId": "051b53cc-2bfd-467e-8140-f61586a920d8"
+    },
+    "guestLoginApiErrorResponseWithIncorrectHeader":{
+      "type": "RUA instance has more than one partner, please provide a apikey",
+      "code": 18,
+      "message": "Multiple partners found. Please provide an apikey",
+      "altMessage": "No partners found. Please provide a correct apikey"
+    }
+  },
+  "forgotPasswordApiWithIncorrectData": {
+    "forgotPasswordApiWithIncorrectDataPath": "v1/credentials/forget",
+    "forgotPasswordApiWithIncorrectDataHeaders":
+    {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_2912)"
+    },
+    "forgotPasswordApiWithIncorrectDataPayload":
+    {
+      "email": "eumx_emepos15@mailinator.com"
+    },
+    "forgotPasswordApiErrorResponseWithIncorrectData": {
+      "type": "User not found",
+      "code": 7,
+      "message": "The combination of username and password used is incorrect. Please request a username reminder or password reset, messages will be sent to the email address or phone number you used to sign up with."
+    },
+    "forgotPasswordApiErrorResponseWithIncorrectHeader":{
+      "type": "RUA instance has more than one partner, please provide a apikey",
+      "code": 18,
+      "message": "Multiple partners found. Please provide an apikey",
+      "altMessage": "No partners found. Please provide a correct apikey"
+    }
+  },
+  "updatePasswordApiWithIncorrectData": {
+    "updatePasswordApiWithIncorrectDataPath": "v1/user/password",
+    "updatePasswordApiWithIncorrectDataHeaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "rua.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+    },
+    "updatePasswordApiWithIncorrectDataPayload": {
+      "currentPassword": "test1234",
+      "newPassword": "test12345"
+    },
+    "updatePasswordApiErrorResponseWithIncorrectData": {
+      "type": "Current password is incorrect",
+      "code": 10,
+      "message": "Sorry, your current password is incorrect"
+    },
+    "updatePasswordApiErrorResponseWithIncorrectHeader": {
+      "type": "Unauthorized. Token is invalid",
+      "code": 6,
+      "message": "JWT expired at 2023-07-24T11:53:24Z. Current time: 2023-07-24T13:27:00Z, a difference of 5616807 milliseconds.  Allowed clock skew: 0 milliseconds.",
+      "altMessage": "Sorry, you're not authorized to request this."
+    }
+  },
+  "logoutApiWithIncorrectData": {
+    "logoutPath": "v1/user/logout"
+  }
+}

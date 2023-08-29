@@ -1,0 +1,517 @@
+{
+  "getMerchantsListAPIWithIncorrectData": {
+    "getMerchantsListAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getMerchantsListAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getMerchantsListAPIWithIncorrectHeaderErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getMerchantsAPIWithIncorrectData": {
+    "getMerchantsAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getMerchantsAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getMerchantsAPIWithNullMerchantIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Merchant not found",
+      "code": "4"
+    },
+    "getMerchantsAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getCategoriesAndProductsForThemerchantAPIWithIncorrectData": {
+    "getCategoriesAndProductsForThemerchantAPIWithIncorrectDataPath": "api/v2/partner/",
+    "getCategoriesAndProductsForThemerchantAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getCategoriesAndProductsForThemerchantAPINullMerchantIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Merchant not found",
+      "code": "4"
+    },
+    "getCategoriesAndProductsForThemerchantAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getCategoriesAPIWithIncorrectData": {
+    "getCategoriesAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getCategoriesAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getCategoriesAPINullMerchantIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Merchant not found",
+      "code": "4"
+    },
+    "getCategoriesAPINullCategoryIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Requested category doesn't exist",
+      "code": "4"
+    },
+    "getCategoriesAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getProductsWithinCategoryAPIWithIncorrectData": {
+    "getProductsWithinCategoryAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getProductsWithinCategoryAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getProductsWithinCategoryAPINullMerchantIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Merchant not found",
+      "code": "4"
+    },
+    "getProductsWithinCategoryAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getProductAPIWithIncorrectData": {
+    "getProductAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getProductAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getProductAPINullMerchantIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Merchant not found",
+      "code": "4"
+    },
+    "getProductAPINullCategoryIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Requested category doesn't exist",
+      "code": "4"
+    },
+    "getProductAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+
+  },
+  "getProductByBarcodeAPIWithIncorrectData": {
+    "getProductByBarcodeAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getProductByBarcodeAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    }
+  },
+  "getCartAPIWithIncorrectData": {
+    "getCartAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getCartAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getCartAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getWalletAPIWithIncorrectData": {
+    "getWalletAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getWalletAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getWalletAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getOrdersAPIWithIncorrectData": {
+    "getOrdersAPIWithIncorrectDataPath": "api/v3/partner/",
+    "getOrdersAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getOrdersAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "getOrdersAPIWithIncorrectDateErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [invalid date - #]",
+      "code": "3"
+    }
+  },
+  "callbackAPIWithIncorrectData": {
+    "callbackAPIWithIncorrectDataPath": "api/v3/external/callback/",
+    "callbackAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    }
+  },
+  "getOrderByIDAPIWithIncorrectData": {
+    "getOrderByIDAPIWithIncorrectDataPath": "api/v3/external/callback/",
+    "getOrderByIDAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getOrderByIDAPIWithIncorrecHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "getOrderByIDAPIWithIncorrectOrederIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Order not found",
+      "code": "4"
+    }
+  },
+  "addCardAPIWithIncorrectData": {
+    "addCardAPIWithIncorrectDataPath": "api/v1/partner/",
+    "addCardAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "addCardAPIWithIncorrectDataPayload":{
+        "valid_from": "1020",
+        "type": "credit",
+        "short_name": "aci",
+        "pan6": "420000",
+        "pan4": "0067",
+        "pan": "O2n+qgWIQ8v48n68Ro9h7Y0ZJxtHP+Ywekkgp80gkHuL+12wxVh0GSdVtnqh08LhT4dFKJF38a9amUXyR++j9njmETgBIUby+701cBSXGgK90L/nj2xYscsButgrLJN940XaDc6ds7d7qzdRsHtu7vrjI/cze7L0Xgfyrq3YAQep8qzsJVIw04jiAs1GLoUhPBcJkqvcWzTDezuiTdh+Lu5qijapJOvXCLeCHEoRqf6UCIn1ddSL7X4ZE6XFE1rzbOlKNA5QlyI0KaY75kv5QwhCQ4hXH0DLqNyCqxsKCK2uobpgcewNKm3v3JvSISvtVvR92CQQMl/KT/SzBmwPJw==",
+        "name_on_card": "ACI Card",
+        "expires_on": "0830",
+        "brand": "visa",
+        "address_id": "a971956f-2a82-4cf6-9ee0-39757e6fd64b"
+      },
+    "addCardAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Required properties short_name, pan, pan6, pan4, brand, type, name_on_card, expires_on, address_id, valid_from were not present. - #]",
+      "code": "3"
+    },
+    "addCardAPIWithNullDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected String but got Null. - #/address_id, Type mismatch. Expected String but got Null. - #/brand, Type mismatch. Expected String but got Null. - #/expires_on, Type mismatch. Expected String but got Null. - #/name_on_card, Type mismatch. Expected String but got Null. - #/pan, Type mismatch. Expected String but got Null. - #/pan4, Type mismatch. Expected String but got Null. - #/pan6, Type mismatch. Expected String but got Null. - #/short_name, Type mismatch. Expected String but got Null. - #/type]",
+      "code": "3"
+    },
+    "addCardAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "updateCardAPIWithIncorrectData": {
+    "updateCardAPIWithIncorrectDataPath": "api/v1/partner/",
+    "updateCardAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "updateCardAPIWithIncorrectDataCardID": "586fce8c-ddbb-4df1-834f-a3eb74b69eb1",
+    "updateCardAPIWithIncorrectDataPayload":{
+      "valid_from": "1120",
+      "type": "credit",
+      "short_name": "aci_card",
+      "pan6": "420000",
+      "pan4": "0067",
+      "pan": "O2n+qgWIQ8v48n68Ro9h7Y0ZJxtHP+Ywekkgp80gkHuL+12wxVh0GSdVtnqh08LhT4dFKJF38a9amUXyR++j9njmETgBIUby+701cBSXGgK90L/nj2xYscsButgrLJN940XaDc6ds7d7qzdRsHtu7vrjI/cze7L0Xgfyrq3YAQep8qzsJVIw04jiAs1GLoUhPBcJkqvcWzTDezuiTdh+Lu5qijapJOvXCLeCHEoRqf6UCIn1ddSL7X4ZE6XFE1rzbOlKNA5QlyI0KaY75kv5QwhCQ4hXH0DLqNyCqxsKCK2uobpgcewNKm3v3JvSISvtVvR92CQQMl/KT/SzBmwPJw==",
+      "name_on_card": "ACI Card",
+      "expires_on": "0832",
+      "brand": "visa",
+      "address_id": "a971956f-2a82-4cf6-9ee0-39757e6fd64b"
+    },
+    "updateCardAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Required properties short_name, name_on_card, address_id were not present. - #]",
+      "code": "3"
+    },
+    "updateCardAPIWithNullDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected String but got Null. - #/address_id, Type mismatch. Expected String but got Null. - #/brand, Type mismatch. Expected String but got Null. - #/expires_on, Type mismatch. Expected String but got Null. - #/name_on_card, Type mismatch. Expected String but got Null. - #/pan, Type mismatch. Expected String but got Null. - #/pan4, Type mismatch. Expected String but got Null. - #/pan6, Type mismatch. Expected String but got Null. - #/short_name, Type mismatch. Expected String but got Null. - #/type]",
+      "code": "3"
+    },
+    "updateCardAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "deleteCardAPIWithIncorrectData": {
+    "deleteCardAPIWithIncorrectDataPath": "api/v1/partner/",
+    "deleteCardAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "deleteCardAPIDeletedCardID": "836acea4-ec58-42ed-8818-84391704665b",
+    "deleteCardAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "deleteCardAPIWithDeletedCardIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Card not found",
+      "code": "4"
+    }
+  },
+  "optionCallAPIWithIncorrectData": {
+    "optionCallAPIWithIncorrectDataPath": "api/v4/partner/",
+    "optionCallAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "optionCallAPIWithIncorrectDataPayload": {
+      "id": 4232,
+      "qty": 1,
+      "configurable_options": [],
+      "custom_options": []
+    },
+    "optionCallAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "optionCallAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Required properties id, qty were not present. - #]",
+      "code": "3"
+    },
+    "optionCallAPIWithNullDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected Number but got Null. - #/id, Type mismatch. Expected Integer but got Null. - #/qty]",
+      "code": "3"
+    },
+    "optionCallAPIWithMaxQtyErrorResponse": {
+      "type": "Bad Request",
+      "message": "The most you may purchase is 100.",
+      "code": "6"
+    },
+    "optionCallAPIWithInvalidIDErrorResponse": {
+      "type": "Not Found",
+      "reason": {
+        "message": "Product with the given ID not found",
+        "code": "rce_product_not_found"
+      },
+      "message": "Requested entity doesn't exist",
+      "code": "4"
+    }
+  },
+  "CheckoutCallAPIWithIncorrectData": {
+    "CheckoutCallAPIWithIncorrectDataPath": "api/v3/partner/",
+    "CheckoutCallAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "CheckoutCallAPIWithIncorrectDataOptionID": "41553662-3c4f-4852-9d9d-b9d32753fbdd",
+    "CheckoutCallAPIWithIncorrectDataPayload": {
+      "payment_method":
+      {
+        "type":"spgateway"
+      },
+      "shipping_method":
+      {
+        "type": "flatrate",
+        "address_id": "696d6337-39ae-47ad-a06e-b2139b467599"
+      }
+    },
+    "CheckoutCallAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "CheckoutCallAPIWithInvalidOptionIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Unable to find options session",
+      "code": "4"
+    },
+    "CheckoutCallAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Required properties payment_method, shipping_method were not present. - #]",
+      "code": "3"
+    },
+    "CheckoutCallAPIWithNullDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected Object but got Null. - #/payment_method, Type mismatch. Expected Object but got Null. - #/shipping_method]",
+      "code": "3"
+    }
+  },
+  "BuyAPIWithIncorrectData": {
+    "BuyAPIWithIncorrectDataPath": "api/v3/partner/",
+    "BuyAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "BuyAPIWithIncorrectDataCheckoutID": "41553662-3c4f-4852-9d9d-b9d32753fbdd",
+      "BuyAPIWithIncorrectDataPayload": {
+        "payment_method": {
+          "type": "spgateway",
+          "pay_with": "f854f7ed-8005-4bd4-bd97-e13bbd830d51",
+          "cvv": "iFzYBNcd8ovICsD/OAXBTydL2mxJznbSvG5S5CpTfypUbEHvzjKmSXRGdFtPVq8LaUh7D0NuyWBa/kxjJfLS6WMwVUcUwCmw1kYyPkeHLz55muAl4ORd8DaJE4gVJdXOcsOyxN5OFXIqGZV/eKxNHeUQm3ye+tcalYbc6iFb1zHe2fqjVPrT+2vBMIaWUmBVWnRyR+v6rSmJ7Pu5m+tXZSa00TBwEz31UEsNYEUeXXO3RrYxM97aeBnK5RMk9PKqJt3IJQO/Vl/UGoWDepnI1hJ2wyn1sJPrPNRLvf0ppYC7dxI/mDoJW8cVae7ShOPe/zQK7e7nSmkwTqPF81r8Dg==",
+          "phone_id": "7f8bce39-5f06-459f-ba53-6006406ab945"
+        },
+        "location": {
+          "latitude": 70.26561,
+          "longitude": -20.1212
+        }
+    },
+    "BuyAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "BuyAPIWithInvalidOptionIDErrorResponse": {
+      "type": "Not Found",
+      "message": "Unable to find options session",
+      "code": "4"
+    },
+    "BuyAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Invalid payment method - nil]",
+      "code": "6"
+    },
+    "BuyAPIWithInvalidPaymentMethodErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Invalid payment method - nil]",
+      "code": "6"
+    }
+  },
+  "BuyACIAPIWithIncorrectData": {
+    "BuyACIAPIWithIncorrectDataPath": "api/v3/partner/",
+    "BuyACIAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "BuyACIAPIWithIncorrectDataPayload": {
+      "payment_method": {
+        "type": "aci",
+        "pay_with": "01871699-4c3c-4734-90a7-4f1e20434a27",
+        "cvv": "iFzYBNcd8ovICsD/OAXBTydL2mxJznbSvG5S5CpTfypUbEHvzjKmSXRGdFtPVq8LaUh7D0NuyWBa/kxjJfLS6WMwVUcUwCmw1kYyPkeHLz55muAl4ORd8DaJE4gVJdXOcsOyxN5OFXIqGZV/eKxNHeUQm3ye+tcalYbc6iFb1zHe2fqjVPrT+2vBMIaWUmBVWnRyR+v6rSmJ7Pu5m+tXZSa00TBwEz31UEsNYEUeXXO3RrYxM97aeBnK5RMk9PKqJt3IJQO/Vl/UGoWDepnI1hJ2wyn1sJPrPNRLvf0ppYC7dxI/mDoJW8cVae7ShOPe/zQK7e7nSmkwTqPF81r8Dg==",
+        "phone_id": "07c2b7bd-7cca-4f27-9a08-0d4ee4980277",
+        "browser_info": {
+          "accept_headers": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "user_agent": "Dalvik/2.1.0 (Linux; U; Android 11; Android SDK built for x86 Build/RSR1.210210.001.A1)",
+          "ip_address": "FE80::34E1:A8FF:FE3F:4F71",
+          "java_enabled": false,
+          "javascript": true,
+          "language": "en",
+          "color_depth": 32,
+          "screen_height": 2072,
+          "screen_width": 1080,
+          "timezone_offset": 330
+        }
+      }
+    }
+  },
+  "AddtoCartAPIWithIncorrectData": {
+    "AddtoCartAPIWithIncorrectDataPath": "api/v1/partner/",
+    "AddtoCartAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "AddtoCartAPIWithIncorrectDataPayload":{
+      "product":{
+        "id": 4869,
+        "qty": 1,
+        "configurable_options": [],
+        "custom_options": []
+      }
+    },
+    "AddtoCartAPIWithIncorrectHeadersErrorResponse": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "AddtoCartAPIWithEmptyDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Required property product was not present. - #]",
+      "code": "3"
+    },
+    "AddtoCartAPIWithNullDataErrorResponse": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected Object but got Null. - #/product]",
+      "code": "3"
+    }
+  },
+  "GetOrdersAPIWithIncorrectData": {
+    "GetOrdersAPIWithIncorrectDataPath": "api/v3/partner/",
+    "GetOrdersAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "OAuthAPIWithIncorrectData": {
+    "OAuthAPIWithIncorrectDataPath": "v1/OAuthProxy/token",
+    "OAuthAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "Authorization":"TheKeyForTheEnvironmentReplacingBearerToken"
+    },
+    "OAuthAPIWithIncorrectDataPayload": {
+      "clientId": "NnWSRLD2LQLrSTo1y42ZQ2LZiC7tpACy",
+      "clientSecret": "ONpPpuvbkyvTMr2zRbzA3Iiw-SfxtL8uFWePNNg4Dw0L7Mb_YgSmwZ_zBj_0Qa2L",
+      "apiAudience": "REZOLVE-API-URLID"
+    },
+    "OAuthAPIWithoutAuthErrorResponse": {
+      "isError": true,
+      "message": "System.Exception: Cannot get Access Token: {\"error\":\"access_denied\",\"error_description\":\"No audience parameter was provided, and no default audience has been configured\"}\n   at Rezolve.OAuthProxyServer.Core.Services.TokenService.RequestClientCredentialsTokenAsync(GetTokenRequest request, String tokenKey) in /src/Rezolve.OAuthProxyServer.Core/Services/TokenService.cs:line 74\n   at Rezolve.OAuthProxyServer.Core.Services.TokenService.GetToken(GetTokenRequest request) in /src/Rezolve.OAuthProxyServer.Core/Services/TokenService.cs:line 67\n   at Rezolve.OAuthProxyServer.Api.Controllers.OAuthProxyController.GetToken(GetTokenRequest request) in /src/Rezolve.OAuthProxyServer.Api/Controllers/OAuthProxyController.cs:line 41\n   at lambda_method170(Closure , Object )\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\n   at Rezolve.OAuthProxyServer.Api.Middleware.ScopedSerilogSpecificLoggingMiddleware.Invoke(HttpContext context) in /src/Rezolve.OAuthProxyServer.Api/Middleware/ScopedSerilogSpecificLoggingMiddleware.cs:line 81\n   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\n   at Rezolve.OAuthProxyServer.Api.Middleware.HttpExceptionMiddleware.Invoke(HttpContext context) in /src/Rezolve.OAuthProxyServer.Api/Middleware/HttpExceptionMiddleware.cs:line 39"
+    },
+    "OAuthAPIWithIncorrectDataErrorResponse": {
+      "isError": true,
+      "message": "System.Exception: Cannot get Access Token: {\"error\":\"access_denied\",\"error_description\":\"No audience parameter was provided, and no default audience has been configured\"}\n   at Rezolve.OAuthProxyServer.Core.Services.TokenService.RequestClientCredentialsTokenAsync(GetTokenRequest request, String tokenKey) in /src/Rezolve.OAuthProxyServer.Core/Services/TokenService.cs:line 74\n   at Rezolve.OAuthProxyServer.Core.Services.TokenService.GetToken(GetTokenRequest request) in /src/Rezolve.OAuthProxyServer.Core/Services/TokenService.cs:line 67\n   at Rezolve.OAuthProxyServer.Api.Controllers.OAuthProxyController.GetToken(GetTokenRequest request) in /src/Rezolve.OAuthProxyServer.Api/Controllers/OAuthProxyController.cs:line 41\n   at lambda_method170(Closure , Object )\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\n   at Rezolve.OAuthProxyServer.Api.Middleware.ScopedSerilogSpecificLoggingMiddleware.Invoke(HttpContext context) in /src/Rezolve.OAuthProxyServer.Api/Middleware/ScopedSerilogSpecificLoggingMiddleware.cs:line 81\n   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\n   at Rezolve.OAuthProxyServer.Api.Middleware.HttpExceptionMiddleware.Invoke(HttpContext context) in /src/Rezolve.OAuthProxyServer.Api/Middleware/HttpExceptionMiddleware.cs:line 39"
+    }
+  },
+  "GetGeoEngagementsAPIWithIncorrectData": {
+    "GetGeoEngagementsAPIWithIncorrectDataPath": "v1/Engagements/geolocation/triggered",
+    "GetGeoEngagementsAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "Host":"engagement.stg.eu.rezolve.com"
+    },
+    "GetGeoEngagementsAPIWithIncorrectDataQueryParam": {
+      "area.center.latitude":"20.507157",
+      "area.center.longitude":"76.145518",
+      "area.coordinatestype":"BD09",
+      "area.radiusinmeters":"2000000",
+      "ResultCoordinateType":"WGS84",
+      "MinutesFurther":"40",
+      "limit":"100"
+    },
+    "GetGeoEngagementsAPIMissingQueryParamErrorResponse": {
+      "isError": true,
+      "message": "Object reference not set to an instance of an object."
+    }
+  },
+  "GetEngagementsByIdAPIWithIncorrectData": {
+    "GetEngagementsByIdAPIWithIncorrectDataPath": "v1/resolver/400/api/v2/payoffcpm/",
+    "GetEngagementsByIdAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "Host":"engagement.stg.eu.rezolve.com"
+    },
+    "GetEngagementsByIdAPIWithIncorrectDataPayload": {
+      "userId": "31",
+      "entityId": "c87c6e89-5fa8-47b4-b2e5-1fd84754f8a5",
+      "os": "Android",
+      "osVersion": "10 (SDK 29)",
+      "phoneManufacturer": "Xiaomi",
+      "phoneModel": "Mi A2",
+      "app": "fup.rezolve.app.development",
+      "appVersion": "6719-develop-6fae277-fd",
+      "lat": 15.843874,
+      "long": 74.528219
+    },
+    "GetEngagementsByIdAPIWithNullEngIDErrorResponse": {
+      "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+      "title": "Bad Request",
+      "status": 400,
+      "traceId": "00-3838aab8b199ab0c9d6c0e0fd403bcbd-2942e2f88269b413-00"
+    }
+  },
+
+  "GetActByIdAPIWithIncorrectData": {
+    "GetActByIdAPIWithIncorrectDataPath": "v1/Engagements/act/",
+    "GetActByIdAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "Host":"engagement.stg.eu.rezolve.com"
+    },
+    "GetActByIdAPIWithIncorrectDataAct_ID": "e7749e7e-6a99-4a88-92a8-a0d065de53bb",
+    "GetActByIdAPINullActIDErrorResponse": {
+      "actId": [
+        "The value 'null' is not valid."
+      ]
+    }
+  },
+
+  "SearchEngagementAPIWithIncorrectData": {
+    "SearchEngagementAPIWithIncorrectDataPath": "v1/Engagements/v2/search",
+    "SearchEngagementAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "Host":"engagement.stg.eu.rezolve.com"
+    },
+    "SearchEngagementAPIWithIncorrectDataPayload": {
+        "engagementStatusEnums": [
+          "Active"
+        ],
+        "engagementTypeEnums": [
+          "QR","Audio", "Image", "Geolocation", "Beacon", "Touch"
+        ],
+        "searchTerm": "Information",
+        "offset": 0,
+        "limit": 0,
+        "orderBy": [
+          {
+            "field": "string",
+            "direction": "Ascending"
+          }
+        ]
+    },
+    "SearchEngagementAPIWithIncorrectDataErrorResponse": {
+      "offset": [
+        "Could not convert string to integer: @#@. Path 'offset', line 1, position 128."
+      ],
+      "engagementTypeEnums[0]": [
+        "Error converting value \"EmbedInProgress\" to type 'Rezolve.EngagementServer.Core.Models.Engagement.EngagementTypeEnum'. Path 'engagementTypeEnums[0]', line 1, position 85."
+      ],
+      "engagementStatusEnums[0]": [
+        "Error converting value \"EmbedInProgress\" to type 'Rezolve.EngagementServer.Core.Models.Engagement.EngagementOverallStatusEnum'. Path 'engagementStatusEnums[0]', line 1, position 43."
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "enterQueryInputFieldPlaceholderText": {
+    "chineseText": "搜索任何东西...",
+    "koreanText": "무엇이든 찾아보세요...",
+    "arabicText": "ابحث عن أي شيء ...",
+    "deutschText": "Nach irgendetwas suchen...",
+    "frenchText": "Rechercher n'importe quoi...",
+    "spanishText": "Busca cualquier cosa...",
+    "englishText": "Search for anything..."
+  }
+}

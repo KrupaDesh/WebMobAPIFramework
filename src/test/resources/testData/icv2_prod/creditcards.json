@@ -1,0 +1,18 @@
+{
+    "masterCardSuccessful": {
+      "nameOnCard": "Test Master Card",
+      "cardNumber": "5200000000000007",
+      "lastFourDigitOfCard": "0007",
+      "type": "Master",
+      "cvv": "789",
+      "expires": "02/29"
+    },
+  "addCardAndDeleteCard": {
+    "nameOnCard": "Test Master Card",
+    "cardNumber": "4200000000000109",
+    "lastFourDigitOfCard": "0109",
+    "type": "Visa",
+    "cvv": "799",
+    "expires": "06/27"
+  }
+}

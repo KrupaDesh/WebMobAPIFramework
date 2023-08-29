@@ -1,0 +1,212 @@
+{
+  "getPublicKeyAPIWithIncorrectData": {
+    "getPublicKeyAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getPublicKeyAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+    },
+    "getPublicKeyAPIErrorResponseWithIncorrectHeaders" : {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+
+  },
+  "addPhonebookAPIWithIncorrectData": {
+    "addPhonebookAPIWithIncorrectDataPath": "api/v1/partner/",
+    "addPhonebookAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "addPhonebookAPIWithIncorrectDataPayload": {
+      "name": "test",
+      "phone": "7869000382"
+    },
+    "addPhonebookAPIErrorResponseWithIncorrectHeaders":{
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "addPhonebookAPIErrorResponseWithIncorrectData": {
+      "type": "Bad Request",
+      "message": "Validation error: [Expected value to have a minimum length of 1 but was 0. - #/name, Expected value to have a minimum length of 4 but was 0. - #/phone]",
+      "altMessage": "Validation error: [Required properties name, phone were not present. - #]",
+      "code": "3"
+    }
+  },
+  "getPhonebookAPIWithIncorrectData": {
+    "getPhonebookAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getPhonebookAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "getPhonebookAPIErrorResponseWithIncorrectHeaders":{
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "addAddressAPIWithIncorrectData": {
+    "addAddressAPIWithIncorrectDataPath": "api/v1/partner/",
+    "addAddressAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "addAddressAPIWithIncorrectDataPayload": {
+      "zip": "69587",
+      "state": "MX2",
+      "short_name": "Home6",
+      "phone_id": "6fe797fb-8725-4028-8c01-194265e187da",
+      "line_2": "Ap #867-859 Sit Rd.",
+      "line_1": "Theodore Lowe feed",
+      "full_name": "John",
+      "country_alpha2": "",
+      "country": "MX",
+      "city": "OLD TOWN 2"
+    },
+    "addAddressAPIErrorResponseWithIncorrectPhone": {
+      "type": "Not Found",
+      "message": "Phone not found",
+      "code": "4"
+    },
+    "addAddressAPIErrorResponseWithIncorrectHeader" : {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "getAddressAPIWithIncorrectData": {
+    "getAddressAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getAddressAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+    },
+    "getAddressAPIErrorResponseWithIncorrectData" : {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "delAddressByIDAPIWithIncorrectData": {
+    "delAddressByIDAPIWithIncorrectDataPath": "api/v1/partner/",
+    "delAddressByIDAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)"
+
+    },
+    "delAddressByIDAPIWithIncorrectDataAddress": "f3fb7718-0f30-486e-8bc7-40795f640bca",
+
+    "delAddressByIDAPIErrorResponseWithIncorrectHeader": {
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "delAddressByIDAPIErrorResponseWithIncorrectData": {
+      "type": "Bad Request",
+      "message": "Address is in use by a credit card",
+      "code": "6"
+    }
+  },
+  "updatePhonebookAPIWithIncorrectData": {
+    "updatePhonebookAPIWithIncorrectDataPath": "api/v1/partner/",
+    "updatePhonebookAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "updatePhonebookAPIWithIncorrectDataPhoneId":"bf153ab7-4550-4264-bdf7-9b5315cee29e",
+    "updatePhonebookAPIWithIncorrectDataPayload": {
+      "phone": "8869000382",
+      "name": "user_phone"
+    },
+    "updatePhonebookAPIErrorResponseWithIncorrectHeaders":{
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    },
+    "updatePhonebookAPIErrorResponseWithIncorrectData": {
+      "type": "Bad Request",
+      "message": "Validation error: [Expected value to have a minimum length of 1 but was 0. - #/name, Expected value to have a minimum length of 4 but was 0. - #/phone]",
+      "code": "6"
+    }
+  },
+  "delPhonebookAPIWithIncorrectData": {
+    "delPhonebookAPIWithIncorrectDataPath": "api/v1/partner/",
+    "delPhonebookAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "delPhonebookAPIWithIncorrectDataPhoneId":"07c2b7bd-7cca-4f27-9a08-0d4ee4980277",
+
+    "delPhonebookAPIErrorResponseWithIncorrectData": {
+      "type": "Not Found",
+      "message": "Phone not found",
+      "code": "4"
+    },
+    "delPhonebookAPIErrorResponseWithIncorrectHeaders":{
+      "type": "Authentication",
+      "message": "Access is denied.",
+      "code": "1"
+    }
+  },
+  "updateProfileAPIWithIncorrectData": {
+    "updateProfileAPIWithIncorrectDataPath": "api/v1/partner/",
+    "updateProfileAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "updateProfileAPIWithIncorrectDataPayload": {
+      "use_data_for_marketing": false,
+      "title": "Mr.",
+      "name": "John",
+      "last_name": "Wick +917766110330",
+      "first_name": "John Wick +917766110330",
+      "email": "test@test.com"
+    },
+    "updateProfileAPIErrorResponseWithIncorrectData": {
+      "type": "Bad Request",
+      "message": "Validation error: [Type mismatch. Expected Boolean but got Null. - #/use_data_for_marketing]",
+      "code": "5"
+    }
+  },
+  "getProfileAPIWithIncorrectData": {
+    "getProfileAPIWithIncorrectDataPath": "api/v1/partner/",
+    "getProfileAPIWithIncorrectDataheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+      "getProfileAPIErrorResponseWithIncorrectHeaders":{
+        "type": "Authentication",
+        "message": "Access is denied.",
+        "code": "1"
+
+    }
+  }
+}
+

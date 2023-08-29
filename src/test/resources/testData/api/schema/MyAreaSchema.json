@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "offset": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "total": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "offset",
+        "limit",
+        "total"
+      ]
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "engagementId": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            },
+            "distance": {
+              "type": "integer"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "latitude": {
+                  "type": "number"
+                },
+                "longitude": {
+                  "type": "number"
+                },
+                "radius": {
+                  "type": "integer"
+                },
+                "coordinateSystem": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "latitude",
+                "longitude",
+                "radius",
+                "coordinateSystem"
+              ]
+            },
+            "thumbnailUrl": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "engagementId",
+            "title",
+            "content",
+            "distance",
+            "location",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "engagementId": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            },
+            "distance": {
+              "type": "integer"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "latitude": {
+                  "type": "number"
+                },
+                "longitude": {
+                  "type": "number"
+                },
+                "radius": {
+                  "type": "integer"
+                },
+                "coordinateSystem": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "latitude",
+                "longitude",
+                "radius",
+                "coordinateSystem"
+              ]
+            },
+            "thumbnailUrl": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "id",
+            "engagementId",
+            "title",
+            "content",
+            "distance",
+            "location",
+            "thumbnailUrl"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "meta",
+    "data"
+  ]
+}

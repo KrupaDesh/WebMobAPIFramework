@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "products": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "qty": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "custom_options": {
+              "type": "array",
+              "items": {}
+            },
+            "configurable_options": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "qty",
+            "id",
+            "custom_options",
+            "configurable_options"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "qty": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "custom_options": {
+              "type": "array",
+              "items": {}
+            },
+            "configurable_options": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "qty",
+            "id",
+            "custom_options",
+            "configurable_options"
+          ]
+        }
+      ]
+    },
+    "merchant_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "date_updated": {
+      "type": "string"
+    },
+    "date_created": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "products",
+    "merchant_id",
+    "id",
+    "date_updated",
+    "date_created"
+  ]
+}

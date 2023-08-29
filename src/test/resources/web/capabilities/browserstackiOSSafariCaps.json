@@ -1,0 +1,9 @@
+{
+  "browserName": "Safari",
+  "bstack:options": {
+    "deviceName": "iPhone 14",
+    "osVersion": "16.3",
+    "deviceOrientation": "portrait",
+    "appiumVersion": "1.21.0"
+  }
+}

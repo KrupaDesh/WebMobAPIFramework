@@ -1,0 +1,9 @@
+{
+  "browserName": "Chrome",
+  "bstack:options": {
+    "deviceName": "OnePlus 9",
+    "osVersion": "11.0",
+    "deviceOrientation": "portrait",
+    "appiumVersion": "1.21.0"
+  }
+}

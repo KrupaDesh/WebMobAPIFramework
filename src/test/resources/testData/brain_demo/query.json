@@ -1,0 +1,50 @@
+{
+  "electronicsStoreQuery": {
+    "chineseSampleQuery": "我想为我的儿子购买平板电脑",
+    "chineseFollowUpQuery": "他想要一台具有高内存的平板电脑",
+    "koreanSampleQuery": "아들을 위해 태블릿을 사고 싶어요",
+    "koreanFollowUpQuery": "그는 태블릿으로 게임하는 것을 좋아합니다.",
+    "arabicSampleQuery": "تحب زوجتي موسيقى الجهير العالي ، لذا أرني سماعات الرأس التي تحتوي على صوت جهير عالي",
+    "arabicFollowUpQuery": "تظهر لي فقط سماعات حمراء اللون",
+    "deutschSampleQuery": "Ich brauche ein neues Tablet",
+    "deutschFollowUpQuery": "Ich brauchen ein Tablet mit Android-Betriebssystem",
+    "frenchSampleQuery": "Je veux acheter une tablette pour mon fils",
+    "frenchFollowUpQuery": "Je veux une tablette fonctionnant sous Android",
+    "spanishSampleQuery": "necesito una tableta nueva",
+    "spanishFollowUpQuery": "Quiero una tableta que funcione con el sistema Android",
+    "englishSampleQuery": "I want to buy Tablet for my son",
+    "englishFollowUpQuery": "I want tablet which is operating on Android system"
+  },
+  "defaultMessageContent": {
+    "engSampleQuery": "Which model of the iPhone 14 is in stock?",
+    "engMessageContent": "Hello! Thank you for reaching out. Although we do not sell the exact product you are looking for, we have a range of other options available that you might be interested in.",
+    "chinaSampleQuery": "",
+    "chinaMessageContent": "",
+    "korSampleQuery": "",
+    "korMessageContent": "",
+    "arabSampleQuery": "",
+    "arabMessageContent": "",
+    "deuSampleQuery": "",
+    "deuMessageContent": "",
+    "frSampleQuery": "",
+    "frMessageContent": "",
+    "spanSampleQuery": "",
+    "spanMessageContent": ""
+  },
+  "realEstateStoreQuery": {
+    "chineseSampleQuery": "我想在迈阿密为我儿子购买 3 栋 BHK 别墅",
+    "chineseFollowUpQuery": "",
+    "koreanSampleQuery": "마이애미에 있는 아들을 위해 3BHK 빌라를 사고 싶습니다.",
+    "koreanFollowUpQuery": "",
+    "arabicSampleQuery": "أريد شراء فيلا مكونة من 3 غرف نوم لابني في ميامي",
+    "arabicFollowUpQuery": "",
+    "deutschSampleQuery": "Ich suche eine Wohnung mit offenem Grundriss in Los Angeles. Was haben Sie?",
+    "deutschFollowUpQuery": "",
+    "frenchSampleQuery": "Je cherche une maison Philadelphie avec un garage et un grand jardin, que pouvez-vous recommander ?",
+    "frenchFollowUpQuery": "",
+    "spanishSampleQuery": "Quiero comprar una propiedad recientemente renovada en la ciudad de Nueva York",
+    "spanishFollowUpQuery": "",
+    "englishSampleQuery": "I want to buy 3 BHK villa for my son in Miami",
+    "englishFollowUpQuery": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+
+  "merchantSearchAPI": {
+    "merchantSearchAPIPath": "api/v1/search/merchants/",
+    "merchantSearchAPIheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "merchantSearchAPIPayload": {
+      "order_by": "location",
+      "order": "asc",
+      "device_info": "Xiaomi|Android|10|Mi A2|Rezolve China Dev|6719-develop-6fae277-fd",
+      "location": {
+        "longitude": 15.26,
+        "latitude": 75.11
+      }
+    }
+  },
+  "productSearchAPI": {
+    "productSearchAPIPath": "api/v1/search/products/",
+    "productSearchAPIheaders": {
+      "Content-Type": "application/json",
+      "x-rezolve-partner-apikey": "51505209-0ac2-49d7-a685-ff83e6eb3572",
+      "Host": "core.stg.eu.rezolve.com",
+      "User-Agent": "Apache-HttpClient/4.5.12 (Java/1.8.0_291)",
+      "x-rezolve-device-id": "4cf648d0-5f3a-46ac-bd5f-83352509d306"
+    },
+    "productSearchAPIPayload": {
+      "query": "test",
+      "order_by": "score",
+      "order": "desc",
+      "device_info": "Xiaomi|Android|10|Mi A2|Rezolve China Dev|6719-develop-6fae277-fd",
+      "location": {
+        "longitude": 74.52829446,
+        "latitude": 15.84408942
+      },
+      "include_in_results": "products"
+    }
+  }
+}

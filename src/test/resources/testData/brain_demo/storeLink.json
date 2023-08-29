@@ -1,0 +1,19 @@
+{
+  "websiteLink": {
+    "allDemoStoreLink": "https://www.rezolve.com/demo-stores/",
+    "rezolveHomePageLink": "https://www.rezolve.com/",
+    "demoElectronicsStoreLink": "https://www.rezolve.com/electronics/",
+    "demoHomeWareStoreLink": "https://www.rezolve.com/homeware/",
+    "demoRealEstateStoreLink": "https://www.rezolve.com/real-estate/",
+    "demoDepartmentStoreLink": "https://www.rezolve.com/department-store/"
+  },
+  "electronicsStore": {
+    "storeLink": "https://electronicstore.brain-demo.demo.eu.rezolve.com"
+  },
+  "homewareStore": {
+    "storeLink": "https://homewarestore.brain-demo.demo.eu.rezolve.com"
+  },
+  "realEstateStore": {
+    "storeLink": "https://realestatestore.brain-demo.demo.eu.rezolve.com"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "buyEngagementLink": {
+    "icLink" : "https://icv2.demo.eu.rezolve.com/product/2/category/5/merchant/51",
+    "productName" : "MacBook Air 15-inch (M2 chip)"
+  },
+  "buyOnlyCreditCard": {
+    "icLink" : "https://icv2.demo.eu.rezolve.com/product/34/category/0/merchant/51",
+    "productName" : "Tshirt Different Price",
+    "colorWithAutomationLocators": ["xpath|(//mat-select/../..)[1]|click","xpath|//span[text()=' Black ']|click|info|text|Blue"],
+    "sizeWithAutomationLocators": ["xpath|(//mat-select/../..)[2]|click","xpath|//span[text()=' Small ']|click|info|text|Small"]
+
+  },
+  "buyPickupInStore": {
+    "icLink" : "https://icv2.demo.eu.rezolve.com/product/34/category/0/merchant/51",
+    "productName" : "Tshirt Different Price",
+    "sizeWithAutomationLocators": ["xpath|(//mat-select/../..)[2]|click","xpath|//span[text()=' Small ']|click|info|text|Small"],
+    "colorWithAutomationLocators": ["xpath|(//mat-select/../..)[1]|click","xpath|//span[text()=' Black ']|click|info|text|Blue"]
+  },
+  "buyEngagementSmartLinkProduct": {
+    "productName" : "Indomitus Modern Bull Sculpture"
+  },
+  "actEngagementSmartLinkTitle": {
+    "actTitle" : "Test Title"
+  },
+  "old2buyEngagementLink": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/1/category/0/merchant/430",
+    "productName" : "Saint Lauren Sneaker"
+  },
+
+  "buyEngagementLinkCard": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/2/category/3/merchant/397",
+    "productName" : "Saint Laurel Multi Color Leather Handcrafted Sneakers"
+  },
+  "actEngagementDateAndMandatory": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/act/a3gx76YQJEmIHKqdtCLthg",
+    "actTitle" : "Not Accept Older Date"
+  },
+  "oldactEngagementLink": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/act/-9N6JySvFkCBK9FefZ2EoQ",
+    "productName" : "Time to Drive your Dream Car"
+  },
+  "actEngagementLink": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/act/RifzAJ4E10e1owTHvXQ1CQ",
+    "productName" : "Ride your Dream"
+  },
+  "buyConfigEngagementLink": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/69/category/3/merchant/435",
+    "productName" : "[Sample] Fog Linen Chambray Towel - Beige Stripe"
+  },
+  "buyOnlyPaypal": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/2/category/0/merchant/430",
+    "productName" : "Pear and Freesia Room Cologne"
+  },
+  "buyWithoutTax": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/1/category/2/merchant/443",
+    "productName" : "Indomitus Modern Bull Sculpture"
+  },
+  "buyWithTax": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/1/category/2/merchant/442",
+    "productName" : "Indomitus Modern Bull Sculpture",
+    "unitPrice": ""
+  },
+  "outOfStock": {
+    "icLink" : "https://icv2.stg.eu.rezolve.com/product/40/category/4/merchant/443",
+    "productName" : "Out of stock Test Full Sleeve Solid Men Leather Jacket"
+  }
+}

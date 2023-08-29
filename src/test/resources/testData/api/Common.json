@@ -1,0 +1,9 @@
+{
+  "endpoint": {
+    "ruaHost": "https://rua.stg.eu.rezolve.com/",
+    "coreHost": "https://core.stg.eu.rezolve.com/",
+    "bitplace_host": "https://bff.stg.eu.rezolve.com/",
+    "oauth_host": "https://oauth.stg.eu.rezolve.com/",
+    "engagament_host": "https://engagement.stg.eu.rezolve.com/"
+  }
+}

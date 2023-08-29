@@ -1,0 +1,189 @@
+{
+  "gmailAccount": {
+    "email":"rezolvetest75@gmail.com",
+    "password":"Rezolve@75"
+  },
+  "facebookAccount": {
+    "email":"open_huxakuf_user@tfbnw.net",
+    "password":"P4$$w0rd"
+  },
+  "gpayAccount": {
+    "email":"testrzall@gmail.com",
+    "password":"test1234*"
+  },
+  "notworking_mobileAccount": {
+    "phoneNumber":"7842646356",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayment_windows_chrome": {
+    "phoneNumber":"703654125",
+    "countryCode":"+420",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayment_windows_msedge": {
+    "phoneNumber":"7538304679",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayment_mac_safari": {
+    "phoneNumber":"649153159",
+    "countryCode":"+31",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayment_ios_safari": {
+    "phoneNumber":"616193885",
+    "countryCode":"+31",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayment_android_chrome": {
+    "phoneNumber":"616526169",
+    "countryCode":"+31",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_mac_chrome": {
+    "phoneNumber":"7548032890",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_mac_chrome": {
+    "phoneNumber":"18555032655",
+    "countryCode":"+86",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_windows_chrome": {
+    "phoneNumber":"18555032655",
+    "countryCode":"+86",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_windows_msedge": {
+    "phoneNumber":"9669917700",
+    "countryCode":"+63",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_windows_firefox": {
+    "phoneNumber":"9669917700",
+    "countryCode":"+63",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_windows_chrome": {
+    "phoneNumber":"18555032655",
+    "countryCode":"+86",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_windows_msedge": {
+    "phoneNumber":"7342769966",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_ios_safari": {
+    "phoneNumber":"7594594211",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_ios_safari": {
+    "phoneNumber":"7342780080",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_android_chrome": {
+    "phoneNumber":"7376494399",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_android_chrome": {
+    "phoneNumber":"7498173582",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccount_mac_safari": {
+    "phoneNumber":"7938562268",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountPayPal_mac_safari": {
+    "phoneNumber":"7903612563",
+    "countryCode":"+44",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountAddress_windows_chrome": {
+    "phoneNumber":"731885747",
+    "countryCode":"+40",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountAddress_windows_msedge": {
+    "phoneNumber":"915245709",
+    "countryCode":"+351",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountAddress_mac_safari": {
+    "phoneNumber":"658192436",
+    "countryCode":"+34",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountAddress_ios_safari": {
+    "phoneNumber":"658192590",
+    "countryCode":"+34",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  },
+  "mobileAccountAddress_android_chrome": {
+    "phoneNumber":"658192432",
+    "countryCode":"+34",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+ },
+  "mobileAccountAddress_windows_firefox": {
+    "phoneNumber":"658192432",
+    "countryCode":"+34",
+    "address": "1st main, M R Road, Bangalore 620026, KA, India",
+    "invalidOTP": "123456",
+    "errorMessage": "Please confirm the OTP is entered correctly"
+  }
+}
